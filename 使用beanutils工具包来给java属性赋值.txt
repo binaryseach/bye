@@ -1,0 +1,4 @@
+操作java类的属性有一个工具类：beanutils
+①.搭建环境：需要加入commons-logging-1.1.1.jar和commons-beanutils-1.8.0.jar包，并加入build中
+①BeanUtils.setProperty(entry, filename, filevalue);entry类名字filename类的属性filevalue属性的值。//设置entry的filename属性的值为filevalue
+②BeanUtils.getProperty(bean, name);bean类的名字，name属性//get获取属性name的值
